@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#Categories5 {
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+.CardContainer5 {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin-top: 100px;
+
+
+
+
+}
+
+.leftContainerCard5 {
+
+    width: 90% !important;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px !important;
+    margin-left: 50px;
+
+}
+
+
+
+.card5 {
+
+    /* width: 25%; */
+    width: 350px;
+    height: 55vh;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.192);
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.19);
+
+
+
+
+
+}
+
+
+
+
+
+.cardimg5 {
+
+    border-radius: 10px;
+    height: 25vh;
+}
+
+.cardDetails5 {
+
+    height: 29vh;
+    width: 98%;
+    margin: auto;
+}
+
+.cardDetails5 h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 1.3vw;
+    width: 300px;
+}
+
+.btn15 {
+
+
+    width: 95%;
+    margin: 30px auto;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn15 button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#arrow {
+    position: relative;
+    top: 3px;
+}
+
+
+
+.cardimg5 img {
+    width: 100%;
+    height: 185px;
+    border-radius: 10px;
+
+}
+
+@media only screen and (max-width: 1200px) {
+    #Categories5 {
+
+        width: 100%;
+
+    }
+
+    .CardContainer5 {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .leftContainerCard5 {
+
+        width: 100% !important;
+        margin-left: 0px;
+    }
+
+    .card5 {
+
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    .cardDetails5 {
+
+
+        height: 30vh;
+        margin-top: 30px;
+
+    }
+
+    .cardDetails5 h1 {
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .cardDetails5 p {
+        font-size: 3.5vw;
+        width: 350px !important;
+
+    }
+
+
+}

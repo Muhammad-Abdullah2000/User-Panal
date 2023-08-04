@@ -1,0 +1,425 @@
+#CardContent {
+
+    height: 420vh;
+    overflow: hidden;
+
+}
+
+.CardContentimg {
+
+    height: 85vh;
+}
+
+.CardContentimg img {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.CardContentimg p {
+    position: relative;
+    top: -450px;
+    left: 320px;
+    color: #fff;
+}
+
+.CardContentimg h1 {
+    position: relative;
+    top: -440px;
+    left: 310px;
+    color: #fff;
+    font-size: 55px;
+}
+
+.CardContent {
+    background-color: rgba(255, 255, 255, 0.926);
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.19);
+    position: relative;
+    top: -340px;
+    left: 310px;
+    width: 58%;
+    height: 300vh;
+    border-radius: 5px;
+}
+
+.oneCon {
+
+    width: 90%;
+    margin: auto;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contentImg {
+
+    width: 90%;
+    margin: 10px auto;
+    height: 50vh;
+}
+
+.contentImg img {
+    width: 100%;
+    height: 50vh;
+}
+
+.ContentDescription {
+
+    width: 90%;
+    margin: 10px auto;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.share {
+
+    width: 90%;
+    margin: 10px auto;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.comments {
+
+    width: 90%;
+    margin: 10px auto;
+    height: 70vh;
+}
+
+.heading {
+
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.commentBox {
+
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.CommentImg img {
+    width: 60px;
+    height: 70px;
+}
+
+.comment {
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.com {
+
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.reply {
+
+    width: 95%;
+    margin: 10px auto;
+    height: 70vh;
+}
+
+.likereply {
+
+    width: 50%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.logog {
+
+    width: 60%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.reply form {
+
+    height: 50vh;
+}
+
+.Lname {
+
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Lname input {
+    padding: 10px;
+    width: 45%;
+    background-color: #fff;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.button {
+
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.button button {
+    width: 200px;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.latestBlogPost1 {
+
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(90, 90, 90, 0.051);
+
+    margin-top: -260px;
+
+}
+
+.latestBlogPost1 .blogCards {
+
+    height: 60vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.latestBlogPost1 .blogCards .Blogcard {
+    background-color: rgba(128, 128, 128, 0.192);
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.19);
+    width: 25%;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.blogimg {
+
+    border-radius: 10px;
+    height: 25vh;
+}
+
+.blogtext {
+
+    height: 23vh;
+    width: 90%;
+    margin: 2px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blogtext p {
+    text-align: justify;
+}
+
+.blogtext button {
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid rgb(0, 130, 86);
+    color: rgb(0, 130, 86);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blogimg img {
+    width: 100%;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    #CardContent {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 600vh;
+    }
+
+    .CardContentimg {
+        display: none;
+    }
+
+    .CardContent {
+
+        width: 90% !important;
+        margin-top: 380px;
+        margin-left: -620px;
+        height: 360vh;
+        background-color: transparent;
+        box-shadow: none;
+
+    }
+
+    .oneCon {
+
+        height: 25vh;
+        text-align: center;
+        width: 98%;
+    }
+
+    .contentImg {
+
+        width: 100%;
+        height: 30vh;
+    }
+
+    .contentImg img {
+        height: 30vh;
+    }
+
+    .ContentDescription {
+
+        width: 100%;
+        height: 130vh;
+
+    }
+
+    .ContentDescription h1 {
+        font-size: 4.5vw;
+    }
+
+    .ContentDescription p {
+        text-align: justify;
+    }
+
+    .share {
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .comments {
+      
+        width: 100%;
+    }
+
+    .commentBox {
+      
+        width: 100% !important;
+        height: 70vh;
+
+    }
+
+    .com {
+       
+        height: 11vh;
+    }
+
+    .comment p {
+        font-size: 3.2vw;
+    }
+
+    .reply {
+     
+        width: 100%;
+        height: 85vh;
+    }
+
+    .likereply {
+        
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logog {
+
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   
+
+    .button {
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .latestBlogPost1 {
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .blogCards {
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 180vh !important;
+    }
+
+    .Blogcard {
+        width: 100% !important;
+    }
+
+}

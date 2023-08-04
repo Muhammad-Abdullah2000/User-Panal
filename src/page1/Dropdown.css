@@ -1,0 +1,38 @@
+
+.dropdown-container {
+  position: relative;
+  width: 400px;
+
+}
+
+.dropdown-trigger {
+  padding: 5px 0px;
+
+}
+
+.dropdown-trigger button{
+    background-color: rgba(128, 128, 128, 0.5);
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.19);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown-body {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(202, 202, 202);
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.19);
+
+  z-index: 2;
+}
+
+.dropdown-body span{
+    cursor: pointer;
+}
